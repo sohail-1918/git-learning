@@ -1,0 +1,49 @@
+/* Apply style to whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading style */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+
+/* Class selector */
+.box {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* ID selector */
+#special {
+    color: red;
+    font-weight: bold;
+}
+
+/* Button style */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: darkgreen;
+}
